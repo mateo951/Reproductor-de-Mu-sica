@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Reproductor_de_Mu_sica" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="vSG-Pf-WYz" userLabel="Background">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" translatesAutoresizingMaskIntoConstraints="NO" id="kRh-RO-fMg">
+                                <rect key="frame" x="36" y="382" width="342" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="5af-ev-3Ue"/>
+                                    <constraint firstAttribute="width" constant="342" id="gKH-RG-r7N"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Pop"/>
+                                    <segment title="Rock"/>
+                                    <segment title="Jazz"/>
+                                    <segment title="Classic"/>
+                                    <segment title="Country"/>
+                                </segments>
+                                <connections>
+                                    <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9of-7G-sCb"/>
+                                    <action selector="playSegmented" destination="BYZ-38-t0r" eventType="valueChanged" id="vq3-VI-0wa"/>
+                                    <action selector="playSegmentedTry" destination="BYZ-38-t0r" eventType="touchUpInside" id="Usv-g1-Bn6"/>
+                                </connections>
+                            </segmentedControl>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XlX-17-lrj">
+                                <rect key="frame" x="86" y="157" width="243" height="190"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="190" id="ABH-sx-Vvl"/>
+                                    <constraint firstAttribute="width" constant="243" id="kES-Jb-mYy"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Escoge una canción" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2eJ-nb-qH6">
+                                <rect key="frame" x="28" y="48" width="358" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="358" id="QKM-J4-Cei"/>
+                                    <constraint firstAttribute="height" constant="39" id="zly-vo-pU5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O déjalo a la suerte" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8mU-NO-ucF">
+                                <rect key="frame" x="111" y="104" width="192" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="192" id="6Ri-Tj-hWG"/>
+                                    <constraint firstAttribute="height" constant="21" id="Bae-if-yRf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bel-D6-Zy8">
+                                <rect key="frame" x="78" y="434" width="253" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2ep-r8-OQ1">
+                                <rect key="frame" x="78" y="516" width="259" height="100"/>
+                                <subviews>
+                                    <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="yq9-7n-1X8">
+                                        <rect key="frame" x="-5" y="59" width="269" height="31"/>
+                                        <connections>
+                                            <action selector="volumeAdjuster:" destination="BYZ-38-t0r" eventType="valueChanged" id="Hsx-iZ-KME"/>
+                                        </connections>
+                                    </slider>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8nf-9b-RCB" userLabel="Stop">
+                                        <rect key="frame" x="171" y="6" width="40" height="41"/>
+                                        <size key="titleShadowOffset" width="0.0" height="2.2250738585072014e-308"/>
+                                        <state key="normal" image="stop icon thin.png"/>
+                                        <connections>
+                                            <action selector="stop" destination="BYZ-38-t0r" eventType="touchUpInside" id="f6m-40-Tga"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9T1-Kd-qHN">
+                                        <rect key="frame" x="40" y="0.0" width="64" height="53"/>
+                                        <state key="normal" image="shuffle.png"/>
+                                        <connections>
+                                            <action selector="shuffle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wa1-pY-Qtq"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c0Q-ko-cH0" userLabel="Play">
+                                        <rect key="frame" x="105" y="0.0" width="49" height="53"/>
+                                        <state key="normal" image="play icon.png"/>
+                                        <connections>
+                                            <action selector="play" destination="BYZ-38-t0r" eventType="touchUpInside" id="clh-bd-hWg"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BIy-Qo-rfb" userLabel="Pause">
+                                        <rect key="frame" x="106" y="3" width="46" height="47"/>
+                                        <state key="normal" image="pause icon.png"/>
+                                        <connections>
+                                            <action selector="pause" destination="BYZ-38-t0r" eventType="touchUpInside" id="hqd-nq-p9g"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="259" id="oNm-dG-vjt"/>
+                                    <constraint firstAttribute="height" constant="100" id="uvi-aw-zeg"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2eJ-nb-qH6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2l6-wN-c2Y"/>
+                            <constraint firstItem="2ep-r8-OQ1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7Nr-yH-bqO"/>
+                            <constraint firstItem="2eJ-nb-qH6" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="28" id="8tz-em-49z"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vSG-Pf-WYz" secondAttribute="bottom" id="DM2-A1-dcq"/>
+                            <constraint firstItem="XlX-17-lrj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fua-ck-YeC"/>
+                            <constraint firstItem="kRh-RO-fMg" firstAttribute="top" secondItem="XlX-17-lrj" secondAttribute="bottom" constant="35" id="G5e-RZ-lxB"/>
+                            <constraint firstItem="8mU-NO-ucF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LpP-lE-kbJ"/>
+                            <constraint firstItem="kRh-RO-fMg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VQM-A4-McA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vSG-Pf-WYz" secondAttribute="trailing" constant="-20" id="YRq-zx-gwN"/>
+                            <constraint firstItem="vSG-Pf-WYz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="Ywr-zw-lhc"/>
+                            <constraint firstItem="vSG-Pf-WYz" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="kcA-0t-MkO"/>
+                            <constraint firstItem="8mU-NO-ucF" firstAttribute="top" secondItem="2eJ-nb-qH6" secondAttribute="bottom" constant="17" id="vg1-Ue-39q"/>
+                            <constraint firstItem="XlX-17-lrj" firstAttribute="top" secondItem="8mU-NO-ucF" secondAttribute="bottom" constant="32" id="xhd-Lb-aVy"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="2ep-r8-OQ1" secondAttribute="bottom" constant="120" id="zP5-bF-xhc"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="pauseButton" destination="BIy-Qo-rfb" id="czS-SG-AtZ"/>
+                        <outlet property="playButton" destination="c0Q-ko-cH0" id="0ZC-MM-qAg"/>
+                        <outlet property="segmentedConttrol" destination="kRh-RO-fMg" id="Q2L-zy-tAX"/>
+                        <outlet property="slider" destination="yq9-7n-1X8" id="wZc-sS-kQD"/>
+                        <outlet property="songImage" destination="XlX-17-lrj" id="Sbf-Oh-8Tb"/>
+                        <outlet property="songTitleText" destination="Bel-D6-Zy8" id="U9I-74-xgE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="337"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background_1.jpg" width="640" height="1136"/>
+        <image name="pause icon.png" width="48" height="48"/>
+        <image name="play icon.png" width="57" height="57"/>
+        <image name="shuffle.png" width="52" height="51"/>
+        <image name="stop icon thin.png" width="57" height="57"/>
+    </resources>
+</document>

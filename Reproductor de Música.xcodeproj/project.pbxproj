@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A22261CC1C569BA600DA8713 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22261CB1C569BA600DA8713 /* AppDelegate.swift */; };
+		A22261CE1C569BA600DA8713 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22261CD1C569BA600DA8713 /* ViewController.swift */; };
+		A22261D11C569BA600DA8713 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22261CF1C569BA600DA8713 /* Main.storyboard */; };
+		A22261D31C569BA600DA8713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A22261D21C569BA600DA8713 /* Assets.xcassets */; };
+		A22261D61C569BA600DA8713 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22261D41C569BA600DA8713 /* LaunchScreen.storyboard */; };
+		A22261E21C56CE6C00DA8713 /* bon jovi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A22261DD1C56CE6C00DA8713 /* bon jovi.jpg */; };
+		A22261E31C56CE6C00DA8713 /* Classic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A22261DE1C56CE6C00DA8713 /* Classic.jpg */; };
+		A22261E41C56CE6C00DA8713 /* jazz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A22261DF1C56CE6C00DA8713 /* jazz.jpg */; };
+		A22261E51C56CE6C00DA8713 /* JB.png in Resources */ = {isa = PBXBuildFile; fileRef = A22261E01C56CE6C00DA8713 /* JB.png */; };
+		A22261E61C56CE6C00DA8713 /* PH.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A22261E11C56CE6C00DA8713 /* PH.jpg */; };
+		A22261E91C56CE9C00DA8713 /* Pachelbel Canon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A22261E71C56CE9C00DA8713 /* Pachelbel Canon.mp3 */; };
+		A22261EA1C56CE9C00DA8713 /* Sorry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A22261E81C56CE9C00DA8713 /* Sorry.mp3 */; };
+		A22261EE1C56CEA200DA8713 /* Jazz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A22261EC1C56CEA200DA8713 /* Jazz.mp3 */; };
+		A22261F01C56CEA700DA8713 /* Home.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A22261EF1C56CEA700DA8713 /* Home.mp3 */; };
+		A22261F41C56D05700DA8713 /* It's My Life.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A22261F31C56D05700DA8713 /* It's My Life.mp3 */; };
+		A22261FF1C56E37700DA8713 /* background_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A22261FD1C56E37700DA8713 /* background_1.jpg */; };
+		A22262001C56E37700DA8713 /* background_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A22261FE1C56E37700DA8713 /* background_2.jpg */; };
+		A22262271C5708D700DA8713 /* play icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A22262261C5708D700DA8713 /* play icon.png */; };
+		A22262291C57093400DA8713 /* shuffle.png in Resources */ = {isa = PBXBuildFile; fileRef = A22262281C57093400DA8713 /* shuffle.png */; };
+		A222622B1C570B5A00DA8713 /* stop icon thin.png in Resources */ = {isa = PBXBuildFile; fileRef = A222622A1C570B5A00DA8713 /* stop icon thin.png */; };
+		A222622D1C57170900DA8713 /* pause icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A222622C1C57170900DA8713 /* pause icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A22261C81C569BA600DA8713 /* Reproductor de Música.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reproductor de Música.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A22261CB1C569BA600DA8713 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A22261CD1C569BA600DA8713 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A22261D01C569BA600DA8713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A22261D21C569BA600DA8713 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A22261D51C569BA600DA8713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A22261D71C569BA700DA8713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A22261DD1C56CE6C00DA8713 /* bon jovi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bon jovi.jpg"; sourceTree = "<group>"; };
+		A22261DE1C56CE6C00DA8713 /* Classic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Classic.jpg; sourceTree = "<group>"; };
+		A22261DF1C56CE6C00DA8713 /* jazz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jazz.jpg; sourceTree = "<group>"; };
+		A22261E01C56CE6C00DA8713 /* JB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JB.png; sourceTree = "<group>"; };
+		A22261E11C56CE6C00DA8713 /* PH.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PH.jpg; sourceTree = "<group>"; };
+		A22261E71C56CE9C00DA8713 /* Pachelbel Canon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Pachelbel Canon.mp3"; sourceTree = "<group>"; };
+		A22261E81C56CE9C00DA8713 /* Sorry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sorry.mp3; sourceTree = "<group>"; };
+		A22261EC1C56CEA200DA8713 /* Jazz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Jazz.mp3; sourceTree = "<group>"; };
+		A22261EF1C56CEA700DA8713 /* Home.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Home.mp3; sourceTree = "<group>"; };
+		A22261F31C56D05700DA8713 /* It's My Life.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "It's My Life.mp3"; sourceTree = "<group>"; };
+		A22261FD1C56E37700DA8713 /* background_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background_1.jpg; sourceTree = "<group>"; };
+		A22261FE1C56E37700DA8713 /* background_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background_2.jpg; sourceTree = "<group>"; };
+		A22262261C5708D700DA8713 /* play icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play icon.png"; sourceTree = "<group>"; };
+		A22262281C57093400DA8713 /* shuffle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shuffle.png; sourceTree = "<group>"; };
+		A222622A1C570B5A00DA8713 /* stop icon thin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stop icon thin.png"; sourceTree = "<group>"; };
+		A222622C1C57170900DA8713 /* pause icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause icon.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A22261C51C569BA600DA8713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A22261BF1C569BA600DA8713 = {
+			isa = PBXGroup;
+			children = (
+				A22261CA1C569BA600DA8713 /* Reproductor de Música */,
+				A22261C91C569BA600DA8713 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A22261C91C569BA600DA8713 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A22261C81C569BA600DA8713 /* Reproductor de Música.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A22261CA1C569BA600DA8713 /* Reproductor de Música */ = {
+			isa = PBXGroup;
+			children = (
+				A22261CB1C569BA600DA8713 /* AppDelegate.swift */,
+				A22261CD1C569BA600DA8713 /* ViewController.swift */,
+				A22261CF1C569BA600DA8713 /* Main.storyboard */,
+				A22261D21C569BA600DA8713 /* Assets.xcassets */,
+				A22261D41C569BA600DA8713 /* LaunchScreen.storyboard */,
+				A22261D71C569BA700DA8713 /* Info.plist */,
+				A22262011C56E37D00DA8713 /* Images & Sounds */,
+			);
+			path = "Reproductor de Música";
+			sourceTree = "<group>";
+		};
+		A22262011C56E37D00DA8713 /* Images & Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A22261DE1C56CE6C00DA8713 /* Classic.jpg */,
+				A22261DF1C56CE6C00DA8713 /* jazz.jpg */,
+				A22261E01C56CE6C00DA8713 /* JB.png */,
+				A22261E11C56CE6C00DA8713 /* PH.jpg */,
+				A22261E71C56CE9C00DA8713 /* Pachelbel Canon.mp3 */,
+				A22261E81C56CE9C00DA8713 /* Sorry.mp3 */,
+				A22261EC1C56CEA200DA8713 /* Jazz.mp3 */,
+				A22261EF1C56CEA700DA8713 /* Home.mp3 */,
+				A22261F31C56D05700DA8713 /* It's My Life.mp3 */,
+				A22261FD1C56E37700DA8713 /* background_1.jpg */,
+				A22261FE1C56E37700DA8713 /* background_2.jpg */,
+				A22261DD1C56CE6C00DA8713 /* bon jovi.jpg */,
+				A22262261C5708D700DA8713 /* play icon.png */,
+				A22262281C57093400DA8713 /* shuffle.png */,
+				A222622A1C570B5A00DA8713 /* stop icon thin.png */,
+				A222622C1C57170900DA8713 /* pause icon.png */,
+			);
+			name = "Images & Sounds";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A22261C71C569BA600DA8713 /* Reproductor de Música */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A22261DA1C569BA700DA8713 /* Build configuration list for PBXNativeTarget "Reproductor de Música" */;
+			buildPhases = (
+				A22261C41C569BA600DA8713 /* Sources */,
+				A22261C51C569BA600DA8713 /* Frameworks */,
+				A22261C61C569BA600DA8713 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Reproductor de Música";
+			productName = "Reproductor de Música";
+			productReference = A22261C81C569BA600DA8713 /* Reproductor de Música.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A22261C01C569BA600DA8713 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Mateo Villgomez";
+				TargetAttributes = {
+					A22261C71C569BA600DA8713 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 58U777E9MW;
+					};
+				};
+			};
+			buildConfigurationList = A22261C31C569BA600DA8713 /* Build configuration list for PBXProject "Reproductor de Música" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A22261BF1C569BA600DA8713;
+			productRefGroup = A22261C91C569BA600DA8713 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A22261C71C569BA600DA8713 /* Reproductor de Música */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A22261C61C569BA600DA8713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A22261D61C569BA600DA8713 /* LaunchScreen.storyboard in Resources */,
+				A22261D31C569BA600DA8713 /* Assets.xcassets in Resources */,
+				A22261E21C56CE6C00DA8713 /* bon jovi.jpg in Resources */,
+				A22261D11C569BA600DA8713 /* Main.storyboard in Resources */,
+				A22261EA1C56CE9C00DA8713 /* Sorry.mp3 in Resources */,
+				A22262001C56E37700DA8713 /* background_2.jpg in Resources */,
+				A22262271C5708D700DA8713 /* play icon.png in Resources */,
+				A22261E41C56CE6C00DA8713 /* jazz.jpg in Resources */,
+				A22261E61C56CE6C00DA8713 /* PH.jpg in Resources */,
+				A222622B1C570B5A00DA8713 /* stop icon thin.png in Resources */,
+				A22261E31C56CE6C00DA8713 /* Classic.jpg in Resources */,
+				A22261EE1C56CEA200DA8713 /* Jazz.mp3 in Resources */,
+				A22262291C57093400DA8713 /* shuffle.png in Resources */,
+				A22261E51C56CE6C00DA8713 /* JB.png in Resources */,
+				A22261F41C56D05700DA8713 /* It's My Life.mp3 in Resources */,
+				A22261E91C56CE9C00DA8713 /* Pachelbel Canon.mp3 in Resources */,
+				A222622D1C57170900DA8713 /* pause icon.png in Resources */,
+				A22261F01C56CEA700DA8713 /* Home.mp3 in Resources */,
+				A22261FF1C56E37700DA8713 /* background_1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A22261C41C569BA600DA8713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A22261CE1C569BA600DA8713 /* ViewController.swift in Sources */,
+				A22261CC1C569BA600DA8713 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A22261CF1C569BA600DA8713 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A22261D01C569BA600DA8713 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A22261D41C569BA600DA8713 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A22261D51C569BA600DA8713 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A22261D81C569BA700DA8713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A22261D91C569BA700DA8713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A22261DB1C569BA700DA8713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Reproductor de Música/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Maniapps.Reproductor-de-Mu-sica";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A22261DC1C569BA700DA8713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Reproductor de Música/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Maniapps.Reproductor-de-Mu-sica";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A22261C31C569BA600DA8713 /* Build configuration list for PBXProject "Reproductor de Música" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A22261D81C569BA700DA8713 /* Debug */,
+				A22261D91C569BA700DA8713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A22261DA1C569BA700DA8713 /* Build configuration list for PBXNativeTarget "Reproductor de Música" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A22261DB1C569BA700DA8713 /* Debug */,
+				A22261DC1C569BA700DA8713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A22261C01C569BA600DA8713 /* Project object */;
+}
