@@ -43,10 +43,14 @@ class ViewController: UIViewController {
                     songImage.image = UIImage(named: "JB.png")
                     songTitleText.text = "Sorry - Justin Bieber"
                     reproductor.play()
+                    self.playButton.enabled = true
                     if reproductor.playing == true {
                         playButton.hidden = true
                         pauseButton.hidden = false
-            }
+                    } else {
+                        playButton.hidden = false
+                        pauseButton.hidden = true
+                    }
             case 1:
                 do {
                     try reproductor = AVAudioPlayer(contentsOfURL: rockSound!)
@@ -54,10 +58,14 @@ class ViewController: UIViewController {
                     songImage.image = UIImage(named: "bon jovi.jpg")
                     songTitleText.text = "It's my life - Bon Jovi"
                     reproductor.play()
+                    self.playButton.enabled = true
                     if reproductor.playing == true {
                         playButton.hidden = true
                         pauseButton.hidden = false
-            }
+                    } else {
+                        playButton.hidden = false
+                        pauseButton.hidden = true
+                    }
             case 2:
                 do {
                     try reproductor = AVAudioPlayer(contentsOfURL: jazzSound!)
@@ -65,10 +73,14 @@ class ViewController: UIViewController {
                     songImage.image = UIImage(named: "jazz.jpg")
                     songTitleText.text = "Kind of Blue - Miles Davis"
                     reproductor.play()
+                    self.playButton.enabled = true
                     if reproductor.playing == true {
                         playButton.hidden = true
                         pauseButton.hidden = false
-            }
+                    } else {
+                        playButton.hidden = false
+                        pauseButton.hidden = true
+                    }
             case 3:
                 do {
                     try reproductor = AVAudioPlayer(contentsOfURL: classicSound!)
@@ -76,10 +88,14 @@ class ViewController: UIViewController {
                     songImage.image = UIImage(named: "Classic.jpg")
                     songTitleText.text = "D major - Pachelbel Canon"
                     reproductor.play()
-                if reproductor.playing == true {
+                    self.playButton.enabled = true
+                    if reproductor.playing == true {
                         playButton.hidden = true
                         pauseButton.hidden = false
-            }
+                    } else {
+                        playButton.hidden = false
+                        pauseButton.hidden = true
+                    }
             case 4:
                     do {
                         try reproductor = AVAudioPlayer(contentsOfURL: countrySound!)
@@ -87,9 +103,13 @@ class ViewController: UIViewController {
                     songImage.image = UIImage(named: "PH.jpg")
                     songTitleText.text = "Home - Phillip Phillips"
                     reproductor.play()
+                    self.playButton.enabled = true
                     if reproductor.playing == true {
                         playButton.hidden = true
                         pauseButton.hidden = false
+                    } else {
+                        playButton.hidden = false
+                        pauseButton.hidden = true
                     }
                     
             default:
@@ -131,38 +151,35 @@ class ViewController: UIViewController {
             // Shuffling file's reproduction
             try reproductor = AVAudioPlayer(contentsOfURL: (array[randomIndex]!) as NSURL)
             reproductor.play()
+            self.playButton.enabled = true
             if reproductor.playing == true {
                 playButton.hidden = true
                 pauseButton.hidden = false
+            } else {
+                playButton.hidden = false
+                pauseButton.hidden = true
             }
         } catch {"No se pudo reproducir el archivo"}
     }
      
     @IBAction func play() {
-        if self.currentTime.isZero == true {
-            do {
-                try self.reproductor = AVAudioPlayer(contentsOfURL:  popSound!)
-            } catch { "No se pudo reproducir el archivo"}
-            self.songImage.image = UIImage(named: "JB.png")
-            self.songTitleText.text = "Sorry - Justin Bieber"
-            self.reproductor.play()
+        if self.playButton.enabled == true {
+            reproductor.play()
         }
-        pauseButton.hidden = false
         playButton.hidden = true
-        
+        pauseButton.hidden = false
+
     }
     @IBAction func pause() {
-        reproductor.pause()
-        playButton.hidden = false
-        pauseButton.hidden = true
-        
-        
+            reproductor.pause()
+            playButton.hidden = false
+            pauseButton.hidden = true
     }
     @IBAction func stop() {
-        reproductor.stop()
-        reproductor.currentTime = 0.0
-        pauseButton.hidden = true
-        playButton.hidden = false
+            reproductor.stop()
+            reproductor.currentTime = 0.0
+            pauseButton.hidden = true
+            playButton.hidden = false
     }
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -171,10 +188,3 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
    }
-
-/* var reproductorRock: AVAudioPlayer = AVAudioPlayer()
-var reproductorJazz: AVAudioPlayer = AVAudioPlayer()
-var reproductorClassic: AVAudioPlayer = AVAudioPlayer()
-var reproductorCountry: AVAudioPlayer = AVAudioPlayer()
-*/
-
